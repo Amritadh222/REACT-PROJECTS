@@ -1,7 +1,59 @@
-#root {
-  display: flex;                /* Makes the #root div a flex container */
-  justify-content: center;      /* Centers content horizontally */
-  align-items: center;          /* Centers content vertically */
-  min-height: 100vh;     
 
+main {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 24px;
+  background: black;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  text-align: center;
+  color: white ;
+}
+
+/* Style the React logo */
+main img {
+  width: 80px;
+  margin-bottom: 16px;
+}
+
+/* Style the list with a border */
+main ul {
+  border: 2px solid #61dafb;
+  border-radius: 8px;
+  padding: 16px 24px;
+  background: black;
+  text-align: left;
+  margin: 24px 0 0 0;
+  list-style-type: disc;
+  color: white;
+}
+
+/* Style each list item */
+main ul li {
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #b2ebf2;
+}
+
+main ul li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+.header {
+  display: flex;
+  align-items: left;
+  gap: 16px;
+  justify-content: left;
+  color: turquoise;
+}
+
+.header img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 0;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
 }
